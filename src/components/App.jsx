@@ -37,7 +37,9 @@ export const App = () => {
         }
       })
       .catch(onApiError);
+    /* eslint-disable */
   }, [page, value]);
+  /* eslint-enable */
 
   const onSearch = inputValue => {
     setValue(inputValue);
